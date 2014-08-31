@@ -1,20 +1,34 @@
-##general settings
-#title-font: "Unifont Regular 16"
+# ubuntu-mate GRUB2 theme
+#
+# Copyright (C) 2014 nadrimajstor <ipejic@gmail.com>
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+# general settings
 title-color: "white"
-#message-font: "Unifont Regular 16"
 message-color: "black"
 message-bg-color: "gainsboro"
 desktop-image: "background.png"
 desktop-color: "#3c3b37"
 
-##boot menu
+# boot menu
 + boot_menu {
     left = 10%
     width = 80%
     top = 20%
     height = 50%
-#    item_font = "Unifont Regular 16"
-#    selected_item_font = "Unifont Bold 16"
     item_color = "black"
     selected_item_color = "black"
     icon_width = 16
@@ -27,7 +41,7 @@ desktop-color: "#3c3b37"
     selected_item_pixmap_style = "highlight_*.png"
 }
 
-## progress bar
+# progress bar
 + progress_bar {
     id = "__timeout__"
     left = 10%
@@ -41,7 +55,7 @@ desktop-color: "#3c3b37"
     highlight_style = "progress_highlight_*.png"
 }
 
-## help bar at the bottom
+# help bar at the bottom
 + hbox {
     top = 100%-35
     left = 13%
