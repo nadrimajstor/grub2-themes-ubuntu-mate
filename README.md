@@ -23,4 +23,4 @@ grub2-themes-ubuntu-mate by Ivan Pejić aka nadrimajstor is licensed under a [Cr
 ```
 And the final result should look like:
 
-![final](docs/final.ong)
+![final](docs/final.png)
