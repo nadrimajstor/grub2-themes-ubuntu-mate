@@ -13,7 +13,7 @@ sudo apt-get update && sudo apt-get -y install git devscripts debhelper
 git clone https://github.com/nadrimajstor/grub2-themes-ubuntu-mate
 cd grub2-themes-ubuntu-mate
 debuild
-dpkg --install ../grub2-themes-ubuntu-mate_0.1_all.deb
+sudo dpkg --install ../grub2-themes-ubuntu-mate_0.1_all.deb
 ```
 
 ####Manual install
