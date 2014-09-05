@@ -1,0 +1,15 @@
+Source: grub2-themes-ubuntu-mate
+Section: admin
+Priority: extra
+Maintainer: nadrimajstor <ipejic@gmail.com>
+Build-Depends: debhelper (>= 9.0.0)
+Standards-Version: 3.9.5
+Homepage: https://github.com/nadrimajstor/grub2-themes-ubuntu-mate
+Vcs-Git: git@github.com:nadrimajstor/grub2-themes-ubuntu-mate.git
+Vcs-Browser: https://github.com/nadrimajstor/grub2-themes-ubuntu-mate
+
+Package: grub2-themes-ubuntu-mate
+Architecture: all
+Depends: ${misc:Depends}, grub-common (>= 2)
+Description: GRand Unified Bootloader, version 2 (ubuntu-mate theme)
+ This is the ubuntu-mate theme for GRUB's graphical menu.
